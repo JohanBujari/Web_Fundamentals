@@ -1,0 +1,22 @@
+h1{
+    color: white;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+h3{
+    color: blueviolet;
+    text-align: right;
+    text-decoration: underline;
+    background-color: aquamarine;
+
+}
+
+span{
+    color: aqua;
+}
