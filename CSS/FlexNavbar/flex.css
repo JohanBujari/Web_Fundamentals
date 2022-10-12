@@ -1,0 +1,40 @@
+.nav{
+    background-color: gray;
+    height: 70px;
+    display: flex;
+    
+
+}
+
+h1{
+    color: white;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    bottom: 2px;
+
+    
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: auto;
+    color: gray;
+    padding-left: 900px;
+    
+}
+
+a{
+    color: white;
+    margin: 20px;
+    
+}
+
+button{
+    color: white;
+    background-color:blue;
+    box-shadow: black 2px 2px;
+}
+
