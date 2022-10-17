@@ -1,0 +1,66 @@
+
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 390px;
+    margin-right: 390px;
+    text-align: left;
+    
+    
+}
+
+.feed{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.your-feed{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 500px;
+    padding: 20px;
+}
+
+
+
+.james{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90px;
+    height: 200px;
+    padding: 20px;
+}
+
+button{
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: 3px 3px black;
+    background-color: #a88932;
+}
