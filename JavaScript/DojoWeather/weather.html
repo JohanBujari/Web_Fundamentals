@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav d-flex">
+            <h1>DojoWeather</h1>
+            <ul class="cities d-flex">
+                <li><a onclick="displayAlert(this)" href="#">Burbank</a></li>
+                <li><a onclick="displayAlert(this)" href="#">Chicago</a></li>
+                <li><a onclick="displayAlert(this)" href="#">Dallas</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main class="main">
+        <div class="san-jose d-flex">
+            <h1>San Jose</h1>
+            <span>
+                <label>show temperature in</label>
+                <select onchange="chooseTemp(this)">
+                    <option>C</option>
+                    <option>F</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="days d-flex">
+            <div class="today d-flex">
+                <h1>Today</h1>
+                <img src="assets/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temperatures d-flex">
+                    <label id="label1">24</label>
+                    <label id="label2">18</label>
+                </div>
+            </div>
+            <div class="tomorrow d-flex">
+                <h1>Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temperatures d-flex">
+                    <label id="label3">27</label>
+                    <label id="label4">19</label>
+                </div>
+            </div>
+            <div class="friday d-flex">
+                <h1>Friday</h1>
+                <img src="assets/some_clouds.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temperatures d-flex">
+                    <label id="label5">21</label>
+                    <label id="label6">16</label>
+                </div>
+            </div>
+            <div class="saturday d-flex">
+                <h1>Saturday</h1>
+                <img src="assets/some_sun.png" alt="some rain">
+                <p>some rain</p>
+                <div class="temperatures d-flex">
+                    <label id="label7">26</label>
+                    <label id="label8">21</label>
+                </div>
+            </div>
+        </div>
+        <div class="cookies d-flex">
+            <img src="assets/cookie.png" alt="figure">
+            <div class="cookie">
+                <h3>Stop! Cookie time</h3>
+                <p>Overall, cookies help us provide you with a better website,<br>
+                    by enabling us to monitor which pages you find useful and
+                    <br>which you do not. <a href="#">Read more ...</a>
+                </p>
+            </div>
+            <button onclick="dismiss()">I Accept</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
